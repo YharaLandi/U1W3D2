@@ -43,10 +43,10 @@ li {
   border-bottom: 1px solid #ddd;
 }
 
-.lista-task{
-  padding: 150px;
-}
 
+#lista-task>li:nth-child(2) {
+  border: 4px solid #F6C948;
+}
 /* priorità */
 .priorita-alta
 { background-color: #FDE2E2; 
@@ -72,12 +72,6 @@ margin-left: 150px;
 }
 
 /*3 data*/
-.data {
-  margin-left: auto;
-  font-size: 13px;
-  color: #888;
-  white-space: nowrap;
-}
 
 /*4 evdenzia */
 .evidenziato {

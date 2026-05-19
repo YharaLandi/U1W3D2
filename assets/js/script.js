@@ -19,7 +19,9 @@ function aggiungiTask(testo, priorita) {
 //gli specifica gli eredi ovvero=li genitore di badge e button (. diventa l'ultimo figlio(?))
   li.appendChild(badge);
   li.appendChild(button);
-  li.classList.add("priorita-" + priorita); //  aggiunge la stringa priorità concatenata al parametro priorità che arriverà poi in aggiungiTask
+  li.classList.add("priorita-" + priorita); 
+  //Aggiunge al nome della classe la parola priorita- a quale valore valoriziamo ("priorita-" + "alta"  diventa "priorita-alta")
+  //  aggiunge la stringa priorità concatenata al parametro priorità che arriverà poi in aggiungiTask
 
   lista.appendChild(li);//gli specifica gli eredi ovvero= la classe lista è genitore di li (. diventa l'ultimo figlio(?))
   aggiornaContatore();
